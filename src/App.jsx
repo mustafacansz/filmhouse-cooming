@@ -19,7 +19,7 @@ export function App() {
         <div className="page-contacts">
           <a href="mailto:info@filmhouseentertainment.com">info@filmhouseentertainment.com</a>
           <span className="page-contacts-sep">·</span>
-          <a href="mailto:selma@filmhouseentertainment.com">selma@filmhouseentertainment.com</a>
+          <a href="mailto:selma.guzel@filmhouseentertainment.com">selma.guzel@filmhouseentertainment.com</a>
         </div>
       </main>
 
