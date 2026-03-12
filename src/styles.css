@@ -24,14 +24,17 @@ body {
   height: 100%;
 }
 
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
 body {
   font-family: "Outfit", system-ui, -apple-system, sans-serif;
   background: #030306;
   color: var(--fg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
+  margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
@@ -39,7 +42,7 @@ body {
 .page {
   position: relative;
   width: 100%;
-  max-width: 100%;
+  min-width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
