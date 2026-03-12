@@ -32,18 +32,19 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 56px 28px;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
 .page {
   position: relative;
   width: 100%;
-  max-width: 680px;
-  min-height: 88vh;
+  max-width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: clamp(24px, 5vw, 56px) clamp(20px, 6vw, 48px);
   animation: pageFadeIn 0.8s var(--ease-out) forwards;
 }
 
